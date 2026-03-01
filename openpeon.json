@@ -9,34 +9,47 @@
   "categories": {
     "session.start": {
       "sounds": [
-        { "file": "sounds/start_1.mp3", "label": "Greeting 1" },
-        { "file": "sounds/start_2.mp3", "label": "Greeting 2" }
+        { "file": "sounds/ri_add_player_01.wav", "label": "Well done" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/ri_willattack_01.wav", "label": "I march" },
+        { "file": "sounds/ri_sent_01.wav", "label": "Already dispatched" },
+        { "file": "sounds/ri_siege_01.wav", "label": "Men in great heart" }
       ]
     },
     "task.complete": {
       "sounds": [
-        { "file": "sounds/complete_1.mp3", "label": "Done 1" },
-        { "file": "sounds/complete_2.mp3", "label": "Done 2" }
-      ]
-    },
-    "input.required": {
-      "sounds": [
-        { "file": "sounds/permission_1.mp3", "label": "Needs attention" }
+        { "file": "sounds/ri_vict_01.wav", "label": "The lion roars" },
+        { "file": "sounds/ri_vict_04.wav", "label": "Sound the fanfare" },
+        { "file": "sounds/ri_boast_01.wav", "label": "Another false lord fallen" }
       ]
     },
     "task.error": {
       "sounds": [
-        { "file": "sounds/error_1.mp3", "label": "Error" }
+        { "file": "sounds/ri_anger_01.wav", "label": "You fight like a man" },
+        { "file": "sounds/ri_anger_02.wav", "label": "How about a fair fight" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/ri_help_01.wav", "label": "Royal standard in peril" },
+        { "file": "sounds/ri_nervous_02.wav", "label": "A king must cower" },
+        { "file": "sounds/ri_req_01.wav", "label": "In short supply" }
       ]
     },
     "resource.limit": {
       "sounds": [
-        { "file": "sounds/limit_1.mp3", "label": "Limit hit" }
+        { "file": "sounds/ri_notsent_01.wav", "label": "Cannot send goods" },
+        { "file": "sounds/ri_nohelp_01.wav", "label": "These are lean times" }
       ]
     },
     "user.spam": {
       "sounds": [
-        { "file": "sounds/spam_1.mp3", "label": "Too many prompts" }
+        { "file": "sounds/ri_noattack_01.wav", "label": "None but a fool" },
+        { "file": "sounds/ri_noattack_02.wav", "label": "More important plans" },
+        { "file": "sounds/ri_kick_player_01.wav", "label": "Afraid?" }
       ]
     }
   }
